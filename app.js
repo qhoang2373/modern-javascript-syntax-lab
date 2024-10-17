@@ -10,5 +10,3 @@ const nums2 = nums.map((currentNumber) => {
 
 console.log(nums2);
 
-
-tester
