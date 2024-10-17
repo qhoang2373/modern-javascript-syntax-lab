@@ -45,9 +45,10 @@ console.log(car.model);
 // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
 
 const pizzaToppers = ['Pineapple', 'Olives', 'Anchovies'];
-const duplicateToppings = [...pizzaToppers];
 
-console.log(pizzaToppers);
+const controversialPizzaToppings = [...pizzaToppers];
+
+console.log(controversialPizzaToppings);
 
 
 // <------ Exercise 5 ----->
@@ -65,8 +66,23 @@ const vehicle = {
 const newVehicle = {...vehicle};
 
 // Update the properties of newVehicle:
-newVehicle.model = 'q7'
+newVehicle.model = 'q7';
 
 console.log(vehicle)
 console.log(newVehicle)
   
+// <------ Exercise 6 ----->
+
+// Create an object named userProfile. 
+const userProfile = {};
+
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+
+const propertyName = 'age';
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+userProfile[propertyName] = 20;
+
+console.log(userProfile);
+
+// <------ Exercise 7 ----->
