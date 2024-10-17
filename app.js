@@ -52,4 +52,21 @@ console.log(pizzaToppers);
 
 // <------ Exercise 5 ----->
 
+  // Duplicate the following object and spread its values into a new variable `myCar`.
+
+const vehicle = {
+    make: 'Audi',
+    model: 'q5',
+  };
+  
+  // Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+  // Copy the properties of Vehicle:
+const newVehicle = {...vehicle};
+
+// Update the properties of newVehicle:
+newVehicle.model = 'q7'
+
+console.log(vehicle)
+console.log(newVehicle)
   
