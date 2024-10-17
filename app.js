@@ -39,7 +39,6 @@ const { make, model } = car;
 console.log(car.make);
 console.log(car.model);
 
-
 // <------ Exercise 4 ----->
 
 // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
@@ -85,4 +84,20 @@ userProfile[propertyName] = 20;
 
 console.log(userProfile);
 
-// <------ Exercise 7 ----->
+// <------ Exercise 8 ----->
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+
+
+function feline(noun = 'cat', adjective = 'white') {
+    console.log(`The ${noun} is ${adjective}`)
+}
+feline()
