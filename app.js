@@ -96,8 +96,25 @@ console.log(userProfile);
 
 // Your code here
 
-
 function feline(noun = 'cat', adjective = 'white') {
-    console.log(`The ${noun} is ${adjective}`)
+    console.log(`The ${noun} is ${adjective}.`)
 }
 feline()
+
+// <------ Exercise 9 ----->
+
+// Convert the following `if...else` statement in to a ternary:
+
+// let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+let pizza = 'tasty' 
+let isTasty = pizza === 'tasty' ? 'yum' : 'yuck'
+
+console.log(pizza)
+
