@@ -94,8 +94,6 @@ console.log(userProfile);
 
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
-// Your code here
-
 function feline(noun = 'cat', adjective = 'white') {
     console.log(`The ${noun} is ${adjective}.`)
 }
@@ -117,4 +115,33 @@ let pizza = 'tasty'
 let isTasty = pizza === 'tasty' ? 'yum' : 'yuck'
 
 console.log(pizza)
+
+// <------ Exercise 10 ----->
+
+// 1. SET LANGUAGE
+
+// Construct a single line of code that assigns a default value using the logical OR operator. This line should match the logic of the following statement: 
+
+// "LANG is equal to localLangConfig or the default value of English."
+
+const localLangConfig = null;  // Change to 'es', 'fr', etc., or keep it null
+
+// a. Create a variable called LANG
+// b. Assign LANG the value of localLangConfig or 'en' as a default
+
+let LANG = localLangConfig || 'en';
+
+console.log('Language setting:', LANG);
+
+// 2. SET WEBSITE THEME
+
+const userSavedTheme = null; // Change to 'dark', 'contrast', etc., or keep it null
+
+// a. Create a variable called USER_THEME
+// b. Assign USER_THEME the value of userSavedTheme or 'light' as a default
+
+let USER_THEME = userSavedTheme || 'light'
+
+console.log('User theme setting:', USER_THEME);
+
 
